@@ -1,0 +1,7 @@
+export type CompanyPage = { slug: string; title: string; eyebrow: string; description: string; highlights: string[] };
+export const companyPages: CompanyPage[] = [
+  { slug: "about", title: "Technology that makes work flow better.", eyebrow: "ABOUT NOW IT SYSTEMS", description: "We help organizations design, implement and improve ServiceNow experiences that connect people, processes and technology.", highlights: ["Outcome-led ServiceNow consulting", "Practical workflow design and automation", "A focus on clarity, transparency and long-term value"] },
+  { slug: "stories", title: "Better workflows. Measurable outcomes.", eyebrow: "SUCCESS STORIES", description: "Explore how connected workflows can reduce manual effort, improve service experiences and give teams more operational visibility.", highlights: ["Streamline service delivery", "Improve employee and customer experiences", "Build measurable operational insight"] },
+  { slug: "careers", title: "Build what’s next with us.", eyebrow: "CAREERS", description: "We welcome curious people who enjoy solving real business problems with thoughtful technology and collaborative delivery.", highlights: ["Collaborative, learning-focused teams", "Work across ServiceNow solutions and integrations", "Bring ideas from discovery through delivery"] },
+];
+export const getCompanyPage = (slug: string) => companyPages.find((page) => page.slug === slug);
