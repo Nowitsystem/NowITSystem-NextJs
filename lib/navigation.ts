@@ -15,5 +15,4 @@ export const primaryLinks = [
   { href: "/stories", label: "Success stories" },
   { href: "/about", label: "About us" },
   { href: "/careers", label: "Careers" },
-  { href: "/#faq", label: "FAQ" },
 ] as const;

@@ -10,7 +10,20 @@ const companyLinks = [
   { href: "/#contact", label: "Contact us" },
 ] as const;
 
-const solutionLabels = ["ITSM", "ITOM", "ITAM", "GRC", "SecOps", "HRSD", "CSM", "FSM", "PA", "SPM", "App Engine", "NOW Mobile"] as const;
+const solutionLinks = [
+  { href: "/service/itsm", label: "ITSM" },
+  { href: "/service/itom", label: "ITOM" },
+  { href: "/service/itam", label: "ITAM" },
+  { href: "/service/irm", label: "IRM" },
+  { href: "/service/secops", label: "SecOps" },
+  { href: "/service/hrsd", label: "HRSD" },
+  { href: "/service/csm", label: "CSM" },
+  { href: "/service/fsm", label: "FSM" },
+  { href: "/service/pa", label: "PA" },
+  { href: "/service/spm", label: "SPM" },
+  { href: "/service/app-engine", label: "App Engine" },
+  { href: "/service/now-mobile", label: "NOW Mobile" },
+] as const;
 
 export default function SiteFooter() {
   return (
@@ -27,7 +40,7 @@ export default function SiteFooter() {
           </div>
           <div>
             <h4>Solutions</h4>
-            <nav>{solutionLabels.map((label) => <Link key={label} href="/#services">{label}</Link>)}</nav>
+            <nav>{solutionLinks.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</nav>
           </div>
         </div>
         <div className="cp">

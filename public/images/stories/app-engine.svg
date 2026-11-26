@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F7F5FF"/>
+  <defs>
+    <filter id="s7" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#4832C8" flood-opacity="0.12"/></filter>
+    <linearGradient id="p7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8471FF"/><stop offset="100%" stop-color="#5840E6"/></linearGradient>
+    <linearGradient id="m7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22D3B8"/><stop offset="100%" stop-color="#0D9A86"/></linearGradient>
+  </defs>
+  <g transform="translate(400 300) rotate(-26) skewX(22) scale(1 0.86)">
+    <g filter="url(#s7)">
+      <rect x="-145" y="-122" width="290" height="232" rx="18" fill="#FFFFFF"/>
+      <path d="M-145 -104C-145 -113.9 -136.9 -122 -127 -122H127C136.9 -122 145 -113.9 145 -104V-86H-145V-104Z" fill="#17132E"/>
+      <circle cx="-125" cy="-104" r="4" fill="#6954F5"/><circle cx="-111" cy="-104" r="4" fill="#0D9A86"/>
+      <rect x="-126" y="-68" width="252" height="156" rx="12" fill="#FAF9FF" stroke="#E9E4FC"/>
+      <path d="M-40 -26H20C32 -26 32 10 44 10H58" stroke="#6954F5" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path d="M-40 -26H-8C6 -26 6 44 20 44H42" stroke="#0D9A86" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <rect x="-106" y="-48" width="76" height="44" rx="12" fill="#FFFFFF" stroke="#DED7FB"/>
+      <circle cx="-86" cy="-26" r="10" fill="url(#p7)"/>
+      <rect x="-68" y="-31" width="28" height="6" rx="3" fill="#17132E"/>
+      <rect x="28" y="-12" width="80" height="44" rx="12" fill="#FFFFFF" stroke="#DED7FB"/>
+      <rect x="40" y="0" width="20" height="20" rx="6" fill="#EAE6FE"/>
+      <rect x="66" y="4" width="32" height="6" rx="3" fill="#17132E"/>
+      <rect x="28" y="34" width="80" height="42" rx="12" fill="#FFFFFF" stroke="#CDEEE8"/>
+      <circle cx="48" cy="55" r="10" fill="url(#m7)"/>
+      <path d="M44 55l3 3 5-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="66" y="50" width="32" height="6" rx="3" fill="#17132E"/>
+    </g>
+    <g filter="url(#s7)" transform="translate(-142 78)">
+      <rect x="-94" y="-54" width="188" height="114" rx="16" fill="#FFFFFF" stroke="#ECE8FC"/>
+      <rect x="-74" y="-34" width="90" height="8" rx="4" fill="#17132E"/>
+      <rect x="-74" y="-12" width="148" height="16" rx="6" fill="#F5F3FF" stroke="#E0DAFB"/>
+      <rect x="-74" y="14" width="88" height="18" rx="9" fill="url(#p7)"/>
+      <rect x="24" y="14" width="52" height="18" rx="9" fill="#EBFBF7"/>
+    </g>
+  </g>
+</svg>

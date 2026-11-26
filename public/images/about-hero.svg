@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F7F5FF"/>
+  <defs>
+    <filter id="aboutShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#4832C8" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="aboutPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8471FF"/>
+      <stop offset="100%" stop-color="#5840E6"/>
+    </linearGradient>
+    <linearGradient id="aboutMint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3B8"/>
+      <stop offset="100%" stop-color="#0D9A86"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(400 300) rotate(-26) skewX(22) scale(1 0.86)">
+    <!-- Central Connected Platform Stage -->
+    <g filter="url(#aboutShadow)">
+      <rect x="-150" y="-122" width="300" height="232" rx="18" fill="#FFFFFF"/>
+      <path d="M-150 -104C-150 -113.9 -141.9 -122 -132 -122H132C141.9 -122 150 -113.9 150 -104V-86H-150V-104Z" fill="#17132E"/>
+      <circle cx="-128" cy="-104" r="4" fill="#6954F5"/>
+      <circle cx="-114" cy="-104" r="4" fill="#0D9A86"/>
+      <circle cx="-100" cy="-104" r="4" fill="#A89EE8"/>
+
+      <!-- Orbit Rings + Central Hub -->
+      <circle cx="0" cy="4" r="70" stroke="#E5E0FC" stroke-width="1.8" fill="#FAF9FF"/>
+      <circle cx="0" cy="4" r="48" stroke="#D2CAF8" stroke-width="1.5" stroke-dasharray="5 5" fill="none"/>
+      <circle cx="0" cy="4" r="28" fill="url(#aboutPurple)"/>
+      <path d="M-9 12V-4L0 4L9 -4V12" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Connected Team Nodes -->
+      <circle cx="-68" cy="4" r="12" fill="#FFFFFF" stroke="#6954F5" stroke-width="2.5"/>
+      <circle cx="-68" cy="4" r="4" fill="#6954F5"/>
+      <circle cx="68" cy="4" r="12" fill="#FFFFFF" stroke="#0D9A86" stroke-width="2.5"/>
+      <circle cx="68" cy="4" r="4" fill="#0D9A86"/>
+      <circle cx="0" cy="-64" r="12" fill="#FFFFFF" stroke="#0D9A86" stroke-width="2.5"/>
+      <circle cx="0" cy="-64" r="4" fill="#0D9A86"/>
+      <circle cx="0" cy="72" r="12" fill="#FFFFFF" stroke="#6954F5" stroke-width="2.5"/>
+      <circle cx="0" cy="72" r="4" fill="#6954F5"/>
+    </g>
+
+    <!-- Left Card: Transparency & Trust -->
+    <g filter="url(#aboutShadow)" transform="translate(-146 78)">
+      <rect x="-96" y="-54" width="192" height="114" rx="16" fill="#FFFFFF" stroke="#ECE8FC"/>
+      <circle cx="-62" cy="-22" r="14" fill="#EBFBF7"/>
+      <path d="M-68 -22l4 4 8-9" stroke="#0D9A86" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-38" y="-28" width="94" height="8" rx="4" fill="#17132E"/>
+      <rect x="-38" y="-14" width="66" height="6" rx="3" fill="#B5AED6"/>
+      <rect x="-76" y="10" width="152" height="10" rx="5" fill="#F1EEFE"/>
+      <rect x="-76" y="10" width="128" height="10" rx="5" fill="url(#aboutMint)"/>
+      <rect x="-76" y="30" width="96" height="12" rx="6" fill="url(#aboutPurple)"/>
+    </g>
+
+    <!-- Right Card: 24x7 Global Delivery -->
+    <g filter="url(#aboutShadow)" transform="translate(150 -66)">
+      <rect x="-86" y="-50" width="172" height="106" rx="16" fill="#FFFFFF" stroke="#ECE8FC"/>
+      <rect x="-66" y="-32" width="60" height="16" rx="8" fill="#EBFBF7"/>
+      <circle cx="-54" cy="-24" r="3.5" fill="#0D9A86"/>
+      <rect x="-66" y="-4" width="132" height="9" rx="4.5" fill="#17132E"/>
+      <rect x="-66" y="12" width="102" height="7" rx="3.5" fill="#C9C2E8"/>
+      <rect x="-66" y="28" width="84" height="12" rx="6" fill="url(#aboutPurple)"/>
+    </g>
+  </g>
+</svg>
