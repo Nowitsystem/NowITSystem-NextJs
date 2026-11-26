@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F7F5FF"/>
+  <defs>
+    <filter id="carShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#4832C8" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="carPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8471FF"/>
+      <stop offset="100%" stop-color="#5840E6"/>
+    </linearGradient>
+    <linearGradient id="carMint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3B8"/>
+      <stop offset="100%" stop-color="#0D9A86"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(400 300) rotate(-26) skewX(22) scale(1 0.86)">
+    <!-- Central Collaborative Workspace Card -->
+    <g filter="url(#carShadow)">
+      <rect x="-150" y="-122" width="300" height="232" rx="18" fill="#FFFFFF"/>
+      <path d="M-150 -104C-150 -113.9 -141.9 -122 -132 -122H132C141.9 -122 150 -113.9 150 -104V-86H-150V-104Z" fill="#17132E"/>
+      <circle cx="-128" cy="-104" r="4" fill="#6954F5"/>
+      <circle cx="-114" cy="-104" r="4" fill="#0D9A86"/>
+      <rect x="64" y="-111" width="66" height="14" rx="7" fill="url(#carMint)"/>
+
+      <!-- Team Member Collaboration Rows -->
+      <rect x="-126" y="-66" width="252" height="44" rx="12" fill="#FAF9FF" stroke="#E4DFFA"/>
+      <circle cx="-100" cy="-44" r="14" fill="url(#carPurple)"/>
+      <circle cx="-100" cy="-48" r="4.5" fill="#fff"/>
+      <path d="M-108 -38c0-4 16-4 16 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      <rect x="-74" y="-50" width="112" height="8" rx="4" fill="#17132E"/>
+      <rect x="-74" y="-36" width="76" height="6" rx="3" fill="#B5AED6"/>
+      <rect x="62" y="-52" width="48" height="16" rx="8" fill="#DDF7F2"/>
+
+      <rect x="-126" y="-10" width="252" height="44" rx="12" fill="#FAF9FF" stroke="#E4DFFA"/>
+      <circle cx="-100" cy="12" r="14" fill="url(#carMint)"/>
+      <circle cx="-100" cy="8" r="4.5" fill="#fff"/>
+      <path d="M-108 18c0-4 16-4 16 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      <rect x="-74" y="6" width="100" height="8" rx="4" fill="#17132E"/>
+      <rect x="-74" y="20" width="84" height="6" rx="3" fill="#B5AED6"/>
+      <rect x="62" y="4" width="48" height="16" rx="8" fill="#EAE6FE"/>
+
+      <rect x="-126" y="46" width="252" height="44" rx="12" fill="#FAF9FF" stroke="#E4DFFA"/>
+      <circle cx="-100" cy="68" r="14" fill="#17132E"/>
+      <circle cx="-100" cy="64" r="4.5" fill="#fff"/>
+      <path d="M-108 74c0-4 16-4 16 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      <rect x="-74" y="62" width="118" height="8" rx="4" fill="#17132E"/>
+      <rect x="-74" y="76" width="70" height="6" rx="3" fill="#B5AED6"/>
+      <rect x="62" y="60" width="48" height="16" rx="8" fill="#DDF7F2"/>
+    </g>
+
+    <!-- Left Card: Career Growth Trajectory -->
+    <g filter="url(#carShadow)" transform="translate(-146 80)">
+      <rect x="-94" y="-54" width="188" height="114" rx="16" fill="#FFFFFF" stroke="#ECE8FC"/>
+      <rect x="-74" y="-36" width="86" height="8" rx="4" fill="#17132E"/>
+      <path d="M-72 28L-36 12L-4 20L36 -8L70 -20" stroke="url(#carPurple)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <circle cx="70" cy="-20" r="6" fill="#0D9A86"/>
+      <rect x="-74" y="38" width="148" height="6" rx="3" fill="#ECE8FC"/>
+    </g>
+
+    <!-- Right Card: Recognition & Flexible Balance -->
+    <g filter="url(#carShadow)" transform="translate(152 -66)">
+      <rect x="-82" y="-48" width="164" height="104" rx="16" fill="#FFFFFF" stroke="#ECE8FC"/>
+      <circle cx="-48" cy="-10" r="18" fill="#F1EEFE"/>
+      <path d="M-48 -20l2.6 5.4 6 .9-4.3 4.2 1 5.9-5.3-2.8-5.3 2.8 1-5.9-4.3-4.2 6-.9z" fill="#6954F5"/>
+      <rect x="-18" y="-20" width="80" height="8" rx="4" fill="#17132E"/>
+      <rect x="-18" y="-5" width="58" height="6" rx="3" fill="#0D9A86"/>
+      <rect x="-64" y="22" width="128" height="14" rx="7" fill="url(#carMint)"/>
+    </g>
+  </g>
+</svg>

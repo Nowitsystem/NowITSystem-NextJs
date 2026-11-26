@@ -73,7 +73,7 @@ export default function SiteInteractions() {
       const dots = Array.from(carousel.querySelectorAll<HTMLButtonElement>(".feedback-dot"));
       const current = carousel.querySelector<HTMLElement>("#feedback-current");
       let active = Math.max(0, slides.findIndex((slide) => slide.classList.contains("is-active")));
-      let timer: ReturnType<typeof window.setInterval> | undefined;
+      let timer: number | ReturnType<typeof setInterval> | undefined;
 
       const show = (next: number) => {
         if (!slides.length) return;
